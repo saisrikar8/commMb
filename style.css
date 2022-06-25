@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "headerFont";
+    src: url("./RubikMoonrocks-Regular.ttf");
+}
+@font-face {
+    font-family: "pFont";
+    src: url("./Ubuntu-Regular.ttf");
+}
+body{
+    background-color: aliceblue;
+}
+.body{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+a:hover{
+    color: #F00;
+    font-weight: bold;
+}
+a{
+    color:#00F;
+}
+a:active{
+    color:#0F0
+}
+iframe{
+    width: 100vw;
+    height: 75vh;
+}
+p{
+    font-family: "pFont";
+    text-align: "justify";
+    color: #555;
+}
+h1, h3{
+    font-family: "headerFont";
+    font-weight: lighter;
+    text-decoration: underline;
+}
+h1{
+    color: #F00;
+    font-size: 35px;
+}
+h3{
+    color: #00F;
+    font-size: 20px;
+}
+.info{
+    margin-left: 1vw;
+}
+
